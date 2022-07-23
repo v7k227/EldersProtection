@@ -1,0 +1,41 @@
+﻿<mui:ModernWindow x:Class="EldersProtection.MainWindow"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  Title="樂齡P"
+                  Width="650"
+                  Height="450"
+                  IsTitleVisible="True"
+                  WindowState="Maximized" Closed="ModernWindow_Closed">
+
+    <mui:ModernWindow.MenuLinkGroups>
+        <mui:LinkGroup DisplayName="樂齡P">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="歡迎" Source="/Views/WelcomePage.xaml" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="Live Demo">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="Demo" Source="/Views/LiveDemoPage.xaml" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="即時詐騙偵測">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="即時資料分析" Source="/Views/RealtimeProtectionPage.xaml" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="識別詐騙內容">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="語音及LUIS辨識" Source="/Views/VoiceRecognitionAndLUISPage.xaml" />
+                <mui:Link DisplayName="語音驗證" Source="/Views/VoiceVerificationPage.xaml" />
+                <mui:Link DisplayName="臉部辨識" Source="/Views/EmotionRecognitionPage.xaml" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="互動保護機制">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="聊天機器人" Source="/Views/BotServicePage.xaml" />
+                <mui:Link DisplayName="行動推播通知" Source="/Views/NotificationPage.xaml" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+    </mui:ModernWindow.MenuLinkGroups>
+</mui:ModernWindow>
