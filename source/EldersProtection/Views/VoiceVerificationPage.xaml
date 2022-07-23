@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="EldersProtection.Views.VoiceVerificationPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             d:DesignHeight="300"
+             d:DesignWidth="600"
+             mc:Ignorable="d">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="16">
+            說明:
+            <LineBreak />
+            透過Azure的語音驗證服務
+            <LineBreak />
+            我們可以了解這個聲音資訊是由誰發出來的
+            <LineBreak />
+
+            <LineBreak />
+            樂齡P:
+            <LineBreak />
+            對話是屬於雙方一來一回的
+            <LineBreak />
+            系統若能分辨對話是由誰發出,
+            <LineBreak />
+            將能夠有效的掌握對話的來龍去脈
+            <LineBreak />
+            進行更多元化的分析
+            <LineBreak />
+        </TextBlock>
+
+        <StackPanel Grid.Column="1" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Azure模組學習中..." FontSize="32" />
+            <Image Source="/EldersProtection;component/Res/idea.png" Width="200" Height="200" />
+        </StackPanel>
+    </Grid>
+</UserControl>
