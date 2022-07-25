@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AzurePublic
+namespace AzureComm
 {
     /// <summary>
     /// Check for scam phone numbers based on previous scam information.

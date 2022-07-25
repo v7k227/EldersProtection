@@ -5,9 +5,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static AzurePublic.AzureDef;
+using static AzureComm.AzureDef;
 
-namespace AzurePublic
+namespace AzureComm
 {
     /// <summary>
     /// Transform speech to text data for analyzing the key word.

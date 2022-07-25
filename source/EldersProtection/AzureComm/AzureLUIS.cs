@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AzurePublic
+namespace AzureComm
 {
     /// <summary>
     /// To work with AZURE Language Understanding (LUIS) services.
