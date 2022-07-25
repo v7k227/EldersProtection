@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EldersProtection", "EldersProtection\EldersProtection.csproj", "{943047D0-9FB6-41EB-B054-96802FFBE07A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{943047D0-9FB6-41EB-B054-96802FFBE07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943047D0-9FB6-41EB-B054-96802FFBE07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943047D0-9FB6-41EB-B054-96802FFBE07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943047D0-9FB6-41EB-B054-96802FFBE07A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24C9E8B8-A75D-4C3A-9BA5-8EC68F40F50D}
+	EndGlobalSection
+EndGlobal
