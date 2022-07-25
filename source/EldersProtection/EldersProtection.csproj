@@ -84,11 +84,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="AzureDef.cs" />
-    <Compile Include="AzureLUIS.cs" />
-    <Compile Include="AzureNotification.cs" />
-    <Compile Include="AzureSpeechToText.cs" />
-    <Compile Include="AzureStream.cs" />
+    <Compile Include="AzureComm\AzureDef.cs" />
+    <Compile Include="AzureComm\AzureLUIS.cs" />
+    <Compile Include="AzureComm\AzureNotification.cs" />
+    <Compile Include="AzureComm\AzureSpeechToText.cs" />
+    <Compile Include="AzureComm\AzureStream.cs" />
     <Compile Include="Views\NotificationPage.xaml.cs">
       <DependentUpon>NotificationPage.xaml</DependentUpon>
     </Compile>
