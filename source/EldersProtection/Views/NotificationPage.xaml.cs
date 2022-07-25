@@ -11,7 +11,7 @@ using System.Diagnostics;
 using FirstFloor.ModernUI.Windows;
 using FirstFloor.ModernUI.Windows.Navigation;
 using System.Threading;
-using AzurePublic;
+using AzureComm;
 using System;
 using System.Threading.Tasks;
 

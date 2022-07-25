@@ -11,14 +11,14 @@ using System.Diagnostics;
 using FirstFloor.ModernUI.Windows;
 using FirstFloor.ModernUI.Windows.Navigation;
 using System.Threading;
-using AzurePublic;
+using AzureComm;
 using System;
 using System.Media;
 using System.Windows.Controls;
 using System.Windows.Resources;
 using System.Windows;
 using Newtonsoft.Json;
-using static AzurePublic.AzureDef;
+using static AzureComm.AzureDef;
 
 namespace EldersProtection.Views
 {
