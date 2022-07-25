@@ -1,4 +1,4 @@
-﻿using AzurePublic;
+﻿using AzureComm;
 using Microsoft.Azure.NotificationHubs;
 using System;
 using System.Collections.Generic;
