@@ -21,3 +21,6 @@ The system is connected with the BOT Service to interact with the elderly in rea
 
 ## Project Environment ##
 - Visual Studio 2019 with dotnet framework 4.5
+
+## Main Page ##
+![MainPage](https://lh3.googleusercontent.com/KMC2yT-Okmtf_9Nqb-UJ1Ig10F5UgGzVi9uXXmJLh9fpL0tRf6JjR5InT1TBhpiOFBg=w2400 "MainPage")
